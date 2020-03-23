@@ -1,0 +1,23 @@
+
+.Grid{
+    display: grid;
+    grid-template-rows :100px 100% auto ;
+}
+
+.column2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.matchesSec{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.matches{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+

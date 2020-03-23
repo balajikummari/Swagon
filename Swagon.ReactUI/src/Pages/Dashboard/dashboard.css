@@ -1,0 +1,44 @@
+.Grid{
+    display: grid;
+    grid-template-rows: 1fr auto auto  auto 100%;
+   
+   
+}
+
+
+
+Logo{
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+.empty{
+    height: 100px;
+}
+.name{
+    justify-self: center;
+    padding-right: 450px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    grid-row-end: -1;
+    background-image: url("./Bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: start;
+    background-position-x: center;
+}
+
+.option{
+    padding: 40px;
+    margin: 50px;
+    color: ivory;
+    border-radius: 3%;
+}
+
+#book{
+background-color: indigo;
+}
+#offer{
+background-color: goldenrod;
+}

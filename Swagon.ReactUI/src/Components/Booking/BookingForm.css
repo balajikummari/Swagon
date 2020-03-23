@@ -1,0 +1,75 @@
+.BookingContainer{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+}
+
+
+.field {
+    display: flex;
+    flex-flow: column-reverse;
+    margin-bottom: 1em;
+    width: fit-content;
+  }
+
+  label, input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+  }
+
+  label {
+    letter-spacing: 0.05em;
+    color: gainsboro;
+}
+
+  input:placeholder-shown + label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2.125rem) scale(1.5);
+  }
+
+  ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+  }
+
+  input:focus::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  input:not(:placeholder-shown) + label,
+
+  input:focus + label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+    border: transparent;
+  }
+
+  .form-control{
+    border-color: transparent;
+    background-color: transparent;
+    color: transparent;
+}
+.form-control :focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.form-group{
+    padding: 0.5em;
+    background: white;
+    border: transparent;
+}
+button, input {
+    overflow: visible;
+    border: transparent;
+}
+
+.sbutton{
+    text-align: center;
+}

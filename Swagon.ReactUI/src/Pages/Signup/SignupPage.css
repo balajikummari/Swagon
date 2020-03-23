@@ -1,0 +1,28 @@
+.mycontainer {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 12% 88%;
+  }
+
+  .LogoItem{
+    grid-column-start: 1;
+    grid-row-start : 1;
+
+  }
+
+  .IntoItem{
+    grid-column-start: 1 ;
+    grid-row-start : 2   ;
+  }
+
+  .SignupItem{
+    grid-column-start: 2 ;
+    grid-row-start : 1   ;
+    grid-row-end: 3;
+    align-self: center;
+    background-color: goldenrod;
+  }
+
+  Login{
+     align-self: stretch;
+  }
