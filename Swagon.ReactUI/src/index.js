@@ -8,6 +8,7 @@ ReactDOM.render(<div>
     
     <Signup/>
     <BookARide />
+    <div/>
 </div>
 , document.getElementById('root'));
 
