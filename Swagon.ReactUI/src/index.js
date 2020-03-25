@@ -5,9 +5,7 @@ import Signup from './Pages/Signup/SignupPage'
 import BookARide from './Pages/BookARide/BookARide'
 
 ReactDOM.render(<div>
-    
-    <Signup/>
-    <BookARide />
+    <Signup />
 </div>
 , document.getElementById('root'));
 

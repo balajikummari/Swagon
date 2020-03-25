@@ -3,7 +3,7 @@
 .h2, h2 {
     font-size: 2rem;
     text-align:center ;
-    border:none;
+    border:none; 
     color: white;
     
 }
@@ -26,16 +26,18 @@ hr {
     margin-left: auto;
     font-style: italic;
 }
-
 .field {
     display: flex;
     flex-flow: column-reverse;
     margin-bottom: 1em;
+    width: 93%;
+    
   }
 
   label, input {
     transition: all 0.2s;
     touch-action: manipulation;
+    
   }
 
   label {
@@ -51,6 +53,7 @@ hr {
     text-overflow: ellipsis;
     transform-origin: left bottom;
     transform: translate(0, 2.125rem) scale(1.5);
+
   }
 
   ::-webkit-input-placeholder {
@@ -59,7 +62,7 @@ hr {
   }
 
   input:focus::-webkit-input-placeholder {
-    opacity: 1;
+    opacity: 10;
   }
   input:not(:placeholder-shown) + label,
 
@@ -75,25 +78,27 @@ hr {
     color: transparent;
 }
 .form-control :focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: transparent;
     outline: 0;
     box-shadow: none;
+    border: none;
 }
-.form-group{
-    padding: 0.5em;
-    background: white;
-    border: transparent;
+
+.form-groupe {
+  padding: 0.2em;
+  background: white;
+  border-radius: 7px;
+  width: auto;
 }
+
 button, input {
     overflow: visible;
     border: transparent;
 }
 
 .sbutton{
-    text-align: center;
+    text-align: center;   
 }
+
 
 @font-face {
     font-family: 'fontello';
@@ -116,12 +121,16 @@ button, input {
 	-moz-osx-font-smoothing: grayscale;
 	letter-spacing: 6px;
 }
-.btn-primary {
-    color: #fff;
+.btn-sub {
+    color :ivory;
     background-color: indigo;
     border-color:indigo;
     border-radius: 31px;
     padding: 13px;
     width: 126px;
     margin-bottom: 26px;
+}
+
+.btn-sub:hover{
+  color: aliceblue;
 }

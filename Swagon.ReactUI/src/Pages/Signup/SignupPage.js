@@ -17,7 +17,9 @@ const SignupPage = () => {
         <Intro/>
         </div>
         <div className = "SignupItem">
-        <Signup/>
+          <div className = "ISignupItem">
+            <Signup/>
+          </div>
         </div>
     </div>
     );
