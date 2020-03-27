@@ -1,22 +1,22 @@
 .mycontainer {
   display: grid;
-  grid-template-columns: 75% auto ;
+  grid-template-columns: 1fr auto ;
   grid-template-rows: 1fr auto;
   justify-items: stretch;
-  align-items: center;
+  align-items: center; 
 }
   .LogoItem{
-    grid-column-start: 1;
-    grid-row-start : 1;
-
+    width: 100%;
+    /* grid-column-start: 1;
+    grid-row-start : 1; */
   }
 
-  .IntoItem{
-    grid-column-start: 1 ;
-    grid-row-start : 2   ;
+.Intro{
+    grid-column: 1/2;
+    grid-row : 2/3;
   }
 
-  .SignupItem{
+  .SignupItem{ 
     display: grid;
     align-content: center;
     grid-column: 2/-1 ;

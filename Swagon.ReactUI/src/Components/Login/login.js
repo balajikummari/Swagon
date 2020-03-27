@@ -7,25 +7,20 @@ const Login = () => {
         <h2>Login</h2>
         <hr></hr>
         <form  class="form">
-            <div className="form-group rounded field">
-                <input type="email" className="form-control" id="email" placeholder="andy@gmail.com" className="email"></input>
-                <label htmlFor="email">Email</label>
-            </div>
-
-            <div className="form-group rounded field">
-                <input type="password" className="form-control" id="pwd" placeholder="🙊" className="pswd"></input>
-                <label htmlFor="pwd">Password</label>
-            </div>
-
-            {/* <div className="form-group rounded field">
-                <input type="password" className="form-control" id="cpwd" placeholder="testing your memory..." className="cpswd"></input>
-                <label htmlFor="cpwd">Conform Password</label>
-            </div> */}
-
+           
+                <div className="form-groupe  field  ">
+                    <input className="form-control" id="UserName" placeholder="Tonny@strak.tech" className="UserName"></input>
+                    <label htmlFor="UserName">UserName</label>
+                </div>
+                <div className="form-groupe field ">
+                    <input  type="password" className="form-control" id="PassWord" placeholder="🤫🤫🤫🤫🤫" className="PassWord"></input>
+                    <label htmlFor="PassWord">Password</label>
+                </div>
+             
             <div className="sbutton">
-                <button type="submit" className="btn btn-primary">Submit</button>
-                <div><h5 className="col">New Here? <a href ="#">SignUp</a>  </h5></div>
+                <button type="submit" className="btn btn-sub">Submit</button>
             </div>
+            <div className="almem">New here? <a href="#">SignUP</a></div>
         </form>
     </div>
     );

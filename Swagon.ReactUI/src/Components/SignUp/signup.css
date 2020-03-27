@@ -134,3 +134,8 @@ button, input {
 .btn-sub:hover{
   color: aliceblue;
 }
+
+.almem{
+  color: white;
+  justify-self: center;
+}

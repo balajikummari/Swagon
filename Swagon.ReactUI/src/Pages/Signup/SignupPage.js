@@ -13,9 +13,7 @@ const SignupPage = () => {
         <div className="LogoItem">
         <Logo/>
         </div>
-        <div className = "IntoItem">
-        <Intro/>
-        </div>
+        <Intro className="Intro"/>
         <div className = "SignupItem">
           <div className = "ISignupItem">
             <Signup/>

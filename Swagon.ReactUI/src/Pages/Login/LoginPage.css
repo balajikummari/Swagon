@@ -1,13 +1,14 @@
 .mycontainer {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    grid-template-rows: 12% 88%;
+  display: grid;
+  grid-template-columns: 1fr auto ;
+  grid-template-rows: 1fr auto;
+  justify-items: stretch;
+  align-items: center; 
   }
 
   .LogoItem{
-    grid-column-start: 1 ;
-    grid-row-start : 1;
-
+    grid-column-start: 1;
+    grid-row : 1;
   }
 
   .IntoItem{
@@ -16,10 +17,11 @@
   }
 
   .SignupItem{
-    grid-column-start: 2 ;
-    grid-row-start : 1   ;
-    grid-row-end: 3;
-    align-self: center;
+    display: grid;
+    align-content: center;
+    grid-column: 2/-1 ;
+    grid-row : 1/-1;
+    align-self: stretch;
     background-color: indigo;
   }
 

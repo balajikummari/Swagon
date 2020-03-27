@@ -20,10 +20,10 @@ const SignUp = () => {
                     <input type="password" className="form-control" id="CPassWord" placeholder="prove youe memmory" className="CPassWord"></input>
                     <label htmlFor="CPassWord">Password</label>
                 </div>
-              
             <div className="sbutton">
                 <button type="submit" className="btn btn-sub">Submit</button>
             </div>
+            <div className="almem">Alredy a member? <a href="#">Login</a></div>
         </form>
     </div>
     );

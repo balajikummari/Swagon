@@ -2,13 +2,10 @@
     display: grid;
     grid-template-rows: 1fr auto auto  auto 100%;
    
-   
 }
 
-
-
 Logo{
-    grid-row-start: 1;
+    grid-row-start: 1; 
     grid-column-start: 1;
 }
 .empty{
